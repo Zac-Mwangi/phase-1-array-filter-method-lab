@@ -13,6 +13,7 @@ function fuzzyMatch(drivers, received) {
     const result = drivers.filter(passedDriver=>passedDriver.toLowerCase().indexOf(received.toLowerCase())===0)
     if(result){
         return result
+        
     }
 
 }
